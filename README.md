@@ -28,37 +28,37 @@ This code appears to be a PHP template file for displaying the login and registr
 6. **Toggle Between Login and Registration Forms:**
    - It includes JavaScript (jQuery) code at the bottom to toggle between the login and registration forms when a link is clicked. It checks URL parameters (`login` or `signup`) to determine which form to show initially.
 
-                 In the provided code explanation, it mentions the use of URL parameters to toggle between the login and registration forms. URL parameters are additional pieces of information that can be appended to the end of a URL to modify or control the behavior of a web page. In this case, URL parameters are used to determine whether the login or registration form should be displayed initially. Here's how to use URL parameters in this context:
-                 
-                 **URL Parameters in the Code Explanation:**
-                 In the code explanation, it mentions that the JavaScript code at the bottom of the PHP file checks URL parameters (`login` or `signup`) to determine which form to show initially. Let's break down how this works:
-                 
-                 1. **URL Structure:**
-                    - The URL of your website's "My Account" page might look like this: `https://example.com/my-account/`
-                 
-                 2. **Adding URL Parameters:**
-                    - To specify which form to display, you can add URL parameters to the URL. For example:
-                      - To display the login form initially, you can add `?login` to the URL: `https://example.com/my-account/?login`
-                      - To display the registration form initially, you can add `?signup` to the URL: `https://example.com/my-account/?signup`
-                 
-                 3. **JavaScript Code:**
-                    - The JavaScript code in the provided PHP file uses `URLSearchParams` to check for these parameters in the URL. If it finds `login`, it displays the login form; if it finds `signup`, it displays the registration form.
-                 
-                 **How to Use URL Parameters:**
-                 
-                 To utilize this functionality on your website, follow these steps:
-                 
-                 1. **Access the "My Account" Page:**
-                    - Users should access the "My Account" page on your website. The URL will typically be something like `https://example.com/my-account/`.
-                 
-                 2. **Toggle Between Forms:**
-                    - To display the login form initially, users can simply visit the "My Account" page as is (`https://example.com/my-account/`). The JavaScript code will recognize that no parameter is specified, and it will default to displaying the login form.
-                    - To display the registration form initially, users can visit the "My Account" page with the `signup` parameter: `https://example.com/my-account/?signup`.
-                 
-                 3. **JavaScript Interaction:**
-                    - When users click on the "Don't have an account? Register here" link or any other link that triggers the JavaScript function, the code will toggle between the login and registration forms, and it will update the URL parameters accordingly.
-                 
-                 By following these steps, users can easily switch between the login and registration forms on your WooCommerce "My Account" page by modifying the URL parameters. The JavaScript code provided in the PHP file takes care of detecting these parameters and handling the form display accordingly.
+In the provided code explanation, it mentions the use of URL parameters to toggle between the login and registration forms. URL parameters are additional pieces of information that can be appended to the end of a URL to modify or control the behavior of a web page. In this case, URL parameters are used to determine whether the login or registration form should be displayed initially. Here's how to use URL parameters in this context:
+
+**URL Parameters in the Code Explanation:**
+In the code explanation, it mentions that the JavaScript code at the bottom of the PHP file checks URL parameters (`login` or `signup`) to determine which form to show initially. Let's break down how this works:
+
+1. **URL Structure:**
+   - The URL of your website's "My Account" page might look like this: `https://example.com/my-account/`
+
+2. **Adding URL Parameters:**
+   - To specify which form to display, you can add URL parameters to the URL. For example:
+     - To display the login form initially, you can add `?login` to the URL: `https://example.com/my-account/?login`
+     - To display the registration form initially, you can add `?signup` to the URL: `https://example.com/my-account/?signup`
+
+3. **JavaScript Code:**
+   - The JavaScript code in the provided PHP file uses `URLSearchParams` to check for these parameters in the URL. If it finds `login`, it displays the login form; if it finds `signup`, it displays the registration form.
+
+**How to Use URL Parameters:**
+
+To utilize this functionality on your website, follow these steps:
+
+1. **Access the "My Account" Page:**
+   - Users should access the "My Account" page on your website. The URL will typically be something like `https://example.com/my-account/`.
+
+2. **Toggle Between Forms:**
+   - To display the login form initially, users can simply visit the "My Account" page as is (`https://example.com/my-account/`). The JavaScript code will recognize that no parameter is specified, and it will default to displaying the login form.
+   - To display the registration form initially, users can visit the "My Account" page with the `signup` parameter: `https://example.com/my-account/?signup`.
+
+3. **JavaScript Interaction:**
+   - When users click on the "Don't have an account? Register here" link or any other link that triggers the JavaScript function, the code will toggle between the login and registration forms, and it will update the URL parameters accordingly.
+
+By following these steps, users can easily switch between the login and registration forms on your WooCommerce "My Account" page by modifying the URL parameters. The JavaScript code provided in the PHP file takes care of detecting these parameters and handling the form display accordingly.
 
 7. **Instructions for Child Theme:**
    - To use this file in a child theme, follow these steps:
