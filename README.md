@@ -33,16 +33,16 @@ This code appears to be a PHP template file for displaying the login and registr
    
    - **URL Parameters in the Code Explanation:**
    In the code explanation, it mentions that the JavaScript code at the bottom of the PHP file checks URL parameters (`login` or `signup`) to determine which form to show initially. Let's break down how this works:
-    1. **URL Structure:**
-       - The URL of your website's "My Account" page might look like this: `https://example.com/my-account/`
-    
-    2. **Adding URL Parameters:**
-       - To specify which form to display, you can add URL parameters to the URL. For example:
-         - To display the login form initially, you can add `?login` to the URL: `https://example.com/my-account/?login`
-         - To display the registration form initially, you can add `?signup` to the URL: `https://example.com/my-account/?signup`
-    
-    3. **JavaScript Code:**
-       - The JavaScript code in the provided PHP file uses `URLSearchParams` to check for these parameters in the URL. If it finds `login`, it displays the login form; if it finds `signup`, it displays the registration form.
+     1. **URL Structure:**
+        - The URL of your website's "My Account" page might look like this: `https://example.com/my-account/`
+     
+     2. **Adding URL Parameters:**
+        - To specify which form to display, you can add URL parameters to the URL. For example:
+          - To display the login form initially, you can add `?login` to the URL: `https://example.com/my-account/?login`
+          - To display the registration form initially, you can add `?signup` to the URL: `https://example.com/my-account/?signup`
+     
+     3. **JavaScript Code:**
+        - The JavaScript code in the provided PHP file uses `URLSearchParams` to check for these parameters in the URL. If it finds `login`, it displays the login form; if it finds `signup`, it displays the registration form.
    
    - **How to Use URL Parameters:**
    To utilize this functionality on your website, follow these steps:
