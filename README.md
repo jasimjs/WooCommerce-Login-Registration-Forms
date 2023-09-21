@@ -56,7 +56,7 @@ This code appears to be a PHP template file for displaying the login and registr
      3. **JavaScript Interaction:**
         - When users click on the "Don't have an account? Register here" link or any other link that triggers the JavaScript function, the code will toggle between the login and registration forms, and it will update the URL parameters accordingly.
 
-By following these steps, users can easily switch between the login and registration forms on your WooCommerce "My Account" page by modifying the URL parameters. The JavaScript code provided in the PHP file takes care of detecting these parameters and handling the form display accordingly.
+   By following these steps, users can easily switch between the login and registration forms on your WooCommerce "My Account" page by modifying the URL parameters. The JavaScript code provided in the PHP file takes care of detecting these parameters and handling the form display accordingly.
 
 7. **Instructions for Child Theme:**
    - To use this file in a child theme, follow these steps:
