@@ -1,6 +1,7 @@
 # WooCommerce-Login-Registration-Forms
  Custom WooCommerce Login and Registration Forms Template  This repository contains customizable templates for enhancing the user authentication experience in WooCommerce. Customize and style your login and registration forms for your WooCommerce-powered WordPress website with ease.
 
+![Sample WooCommerce Login REgistration Page](Woocommerce%20Login%20Registration%20Page%20Example.gif)
 
 This code appears to be a PHP template file for displaying the login and registration forms in a WooCommerce-powered website. It is intended to be used within a WordPress theme. Let me explain each part of the code and then provide instructions on how to use it in a child theme.
 
